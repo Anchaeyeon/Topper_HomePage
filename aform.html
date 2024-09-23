@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>지원서 작성</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="aform.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="notosanskr.css">
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+          <ul>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">지원폼</a></li>
+              <li><a href="#">Q&A</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="Img/logo.png" alt="지원서 로고">
+      <h4>지원서 작성</h4>
+      <form action="#" method="post" class="application-form">
+        <div class="form-container">
+          <h6>개인정보 입력</h6>
+          <hr> <br>
+          <div class="item mb-3"><br>
+          <strong>학번</strong> 
+            <pre>                                                      </pre>
+            <input type="text" class="form-control" id="snum" name="snum" placeholder="학번 입력">
+          </div><br>
+          <div class="item mb-3"><br>
+            <strong>이름</strong>
+            <pre>                                                      </pre>
+            <input type="text" class="form-control" id="name" name="name" placeholder="이름 입력">
+          </div><br>
+          <div class="item mb-3"><br>
+            <strong>성별</strong>
+            <pre>                                                      </pre>
+            <div class="radio-group">
+              남 <input type="radio" id="gender" name="gender" value="male">
+              <pre>           </pre>
+              여 <input type="radio" id="gender" name="gender" value="female">
+              <pre>   </pre>
+            </div><br>
+          </div><br>
+          <div class="item mb-3"><br>
+            <strong>기숙사 여부</strong>
+            <pre>                                                      </pre>
+            <div class="radio-group">
+            기숙사 <input type="radio" id="dormi" name="dormi" value="dormitory"> 
+            <pre>         </pre>
+            통학 <input type="radio" id="dormi" name="dormi" value="commuter">
+            <pre>   </pre>
+            </div><br>
+          </div><br>
+          <div class="item mb-3"><br>
+            <strong>기숙사 호실</strong> 
+            <pre>                                                      </pre>
+            <input type="text" class="form-control" id="dnum" name="dnum" placeholder="기숙사 호실 입력">
+          </div><br>
+          <div class="item mb-3"><br>
+            <strong>전화번호</strong>
+            <pre>                                                      </pre>
+            <input type="text" class="form-control" id="pnum" name="pnum" placeholder="010"> &nbsp;&nbsp;
+            <input type="text" id="pnum" name="pnum" class="form-control"> &nbsp;&nbsp;
+            <input type="text" id="pnum" name="pnum" class="form-control">
+          </div><br>
+          <h6>지원내용</h6>
+          <hr><br>
+          <div class="item mb-3"> 
+            <strong>지원동기 <br> (300자 이내)</strong>
+            <pre>                                                      </pre>
+            <textarea class="form-control" id="moap" name="moap" placeholder="지원동기 입력" style="resize: none;"></textarea>
+          </div>
+        </div>      
+        <button class="btn btn-primary" type="submit"><strong>제출하기</strong></button>
+      </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
