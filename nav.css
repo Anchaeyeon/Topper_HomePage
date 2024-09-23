@@ -13,7 +13,7 @@
 }
 .navbar nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     list-style: none;
     padding-left: 600%;
 }
