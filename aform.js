@@ -12,3 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+
+function showModal(event) {
+    event.preventDefault(); // 기본 제출 방지
+    $('#submissionModal').modal('show'); // 모달 표시
+  }
