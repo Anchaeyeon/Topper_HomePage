@@ -1,10 +1,25 @@
-@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+/*@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-main {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
 
 body {
     overflow: scroll; /* 스크롤 기능을 유지 */
     background-color: #f5f5f5;
     text-overflow: ellipsis;
 }
+  
+/* 포커스 시 테두리 및 그림자 색상 변경 */
+input[type="text"]:focus, textarea:focus {
+    border-color: #f5f5f5 !important;
+    outline: none; /* 기본 아웃라인 제거 */
+}
+
 ::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera에서 스크롤바 숨기기 */
 }
@@ -36,6 +51,13 @@ strong{
     margin-top: 8px;
 }
 
+small{
+    position: absolute;
+    top: 100%;
+    font-size: x-small;
+    color: #2856FF;
+}
+
 .item{
     display: flex;
 }
@@ -55,8 +77,8 @@ hr {
     background-color: #eeeeee;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: -30px;
     border: 1px solid #ccc;
+    margin-bottom: -10%;
 }
 
 #snum, #name{
@@ -65,14 +87,21 @@ hr {
 } 
 
 #dnum{
-    width: 50%;
+    width: 17%;
     height: 40px;
+    position: absolute;
+    top: 103.5%;
+    left: 49.5%;
 } 
+
+#dtext{
+    position: absolute;
+    top: 103%;
+}
 
 #pnum{
     width: 31%;
-    height: 40px;
-    margin-bottom: 15px;
+    height: 40px;  
 }
 
 #moap{
