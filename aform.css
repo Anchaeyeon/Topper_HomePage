@@ -87,16 +87,16 @@ hr {
 } 
 
 #dnum{
-    width: 17%;
+    width: 13.5%;
     height: 40px;
     position: absolute;
-    top: 103.5%;
+    top: 63%;
     left: 49.5%;
 } 
 
 #dtext{
     position: absolute;
-    top: 103%;
+    top: 63%;
 }
 
 #pnum{
@@ -136,7 +136,7 @@ input[type='radio']:checked {
 button{
     cursor: pointer;
     position: relative;
-    left: 60%;
+    left: 58%;
     width: 200px;
     height: 45px;
     border-radius: 5px;
