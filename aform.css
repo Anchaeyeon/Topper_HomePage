@@ -17,14 +17,14 @@ input[type="text"]:focus, textarea:focus {
     display: none; /* Chrome, Safari, Opera에서 스크롤바 숨기기 */
 }
 
-h4{
+h1{
     text-align: center;
     font-weight: bolder;
 }
 
 img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-left: 48.5%;
     margin-top: 8%;
     margin-bottom: 1%;
@@ -32,89 +32,91 @@ img{
 
 .form-container {
     white-space: nowrap;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 50px auto;
-    padding: 60px 100px;
+    padding: 120px 100px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 strong{
-    margin-top: 8px;
+    margin-top: 25px;
 }
 
 small{
     position: absolute;
     top: 100%;
-    font-size: x-small;
+    font-size: medium;
     color: #2856FF;
 }
 
 .item{
     display: flex;
+    font-size: 25px;
 }
 
-h6 {
+h3 {
     font-weight: bolder;
     margin-bottom: 10px;
     color: #0136DE;
 }
 
 hr {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .form-control {
     cursor: pointer;
     background-color: #eeeeee;
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    margin-bottom: -10%;
+    margin-top: 2%;
 }
 
 #snum, #name{
-    width: 100%;
-    height: 40px;
+    width: 80%;
+    height: 30px;
 } 
 
 #dnum{
-    width: 13.5%;
-    height: 40px;
+    width: 20%;
+    height: 30px;
     position: absolute;
-    top: 68%;
-    left: 49.5%;
+    top: 88%;
+    left: 50.7%;
 } 
 
 #dtext{
     position: absolute;
-    top: 68%;
+    top: 90%;
+    margin-left: 0%
 }
 
 #pnum{
-    width: 31%;
+    width: 22.5%;
     height: 40px;  
 }
 
 #moap{
-    width: 130%;
-    height: 300px;
+    width: 108%;
+    height: 450px;
 }
 
 input[type=radio]{
     appearance: none;
     border-radius: 50%;
     border: 1px solid #ccc;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background-color: #eeeeee;
     cursor: pointer;
 }
 
 input[type='radio']:checked {
     background-color: #fff;
-    border: 4px solid #6186ff;
+    border: 5px solid #6186ff;
     box-shadow: 0 0 0 1px #6186ff;
   }
   
@@ -123,15 +125,25 @@ input[type='radio']:checked {
     font-weight: 500;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+    margin-top: 2%;
 }
 
-button{
+.btn{
     cursor: pointer;
     position: relative;
-    left: 58%;
-    width: 200px;
-    height: 45px;
+    left: 61%;
+    width: 290px;
+    height: 70px;
     border-radius: 5px;
     margin-bottom: 40px;
+    font-size: larger;
+}
+
+input::placeholder{
+    font-size: larger;
+}
+
+textarea::placeholder {
+    font-size: larger;
 }
