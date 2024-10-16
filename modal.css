@@ -1,0 +1,66 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+
+.modal{
+    position: fixed;
+    top: 20%;
+    left: -8%;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+.modal-content{
+    width: 160%;
+    height: 470px;
+    border-radius: 3%;
+    border: none;
+}
+
+.modal-header{
+    position: relative;
+    top: -3%;
+    left: -3%;
+    border: none;
+}
+
+.modal-body{
+    position: relative;
+    top: -3%;
+}
+
+.modal-footer{
+    position: absolute;
+    top: 70%;
+    left: -16%;
+    text-align: center;
+    border: none;
+}
+
+h3{
+    font-weight: bolder;
+    position: relative;
+    top: -4%;
+}
+
+.btn1{
+    background-color: white;
+    border-color: #2856FF;
+    border-width: 3px;
+    color: #2856FF;
+    font-weight: bold;
+    position: relative;
+    left: 56%;
+    width: 230px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: #2856FF;
+    border-color: #2856FF;
+    color: white;
+    position: relative;
+    left: 59%;
+    width: 230px;
+    height: 55px;
+    cursor: pointer;
+}
